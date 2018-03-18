@@ -1,0 +1,85 @@
+.bar { fill:  steelblue; }
+.radio-inline{ margin-left: 20px; }
+
+
+*{
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.row h3 {
+  font-size: 18px;
+}
+
+.checkboxes{
+  font-size: 13px;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3.5px;
+}
+
+.bettas{
+  background-color: var(--blue);
+}
+
+.catfish{
+  background-color: var(--yellow);
+}
+
+.cichlids{
+  background-color: var(--red);
+}
+
+.livebearers{
+    background-color: var(--orange);
+}
+
+.otherFish1{
+  background-color: var(--green);
+}
+
+/* https://coolors.co/1be7ff-6eeb83-e4ff1a-ffb800-ff5714 */
+:root {
+  --blue: #1BE7FF;
+  --green: #6EEB83;
+  --yellow: #E4FF1A;
+  --orange: #FFB800;
+  --red: #FF5714;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
